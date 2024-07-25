@@ -2,7 +2,7 @@
  
 <?php
 require_once './template/header.php';
-require './lib/bddrecipe.php';
+require_once './lib/bddrecipe.php';
 
 ?>
 <div class="row">
@@ -17,4 +17,9 @@ foreach($recipes as $key => $recipe) {
  } ?>
   </div>
 
- <?php require_once './template/footer.php' ?>
+ <?php require_once './template/footer.php';
+ 
+ 
+
+ 
+ ?>

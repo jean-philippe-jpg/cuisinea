@@ -1,8 +1,8 @@
 <?php
 require_once './template/header.php';
-require './lib/bddrecipe.php';
+include './lib/bddrecipe.php';
 require './lib/config.php';
-require_once './lib/tools.php';
+require './lib/tools.php';
 
 ?>
 

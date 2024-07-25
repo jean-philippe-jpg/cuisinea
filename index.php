@@ -1,6 +1,6 @@
 
-    <?php require_once './template/header.php';
-    require_once './lib./bddrecipe.php';
+    <?php require_once 'template/header.php';
+           require 'lib./bddrecipe.php';
 
     $recipes = getRecipesAll($bdd);
     ?>
